@@ -33,6 +33,6 @@ urlpatterns = [
     # path('api/',include(router.urls)),
     url(r'^', include(router.urls)),
     # url(r'^api-auth/', include('DjangoDemo.urls', namespace='rest_full'))
-    path('index',views.index,name = 'index')
+    # path('index',views.index,name = 'index')
 
 ]
